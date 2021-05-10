@@ -28,6 +28,10 @@ namespace ArithmeticSudoku
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            init();
+        }
+        private void init()
+        {
             map = new List<string[]>();
             nlb = new Label();
             questions = new Queue<Point>();
